@@ -1,18 +1,20 @@
 {
-  "name": "ecommerce-prototype",
-  "version": "1.0.0",
-  "description": "A prototype for the Dwrandaz Company",
-  "main": "index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Mohammed Shahoe",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "@types/express": "^4.17.7",
-    "@types/node": "^14.0.27"
-  }
+	"name": "ecommerce-prototype",
+	"version": "1.0.0",
+	"description": "A prototype for the Dwrandaz Company",
+	"main": "index.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node_modules/.bin/nodemon index.ts"
+	},
+	"author": "Mohammed Shahoe",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.7",
+		"@types/node": "^14.0.27",
+		"nodemon": "^2.0.4"
+	}
 }
